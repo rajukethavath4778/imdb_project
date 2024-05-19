@@ -8,9 +8,9 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
     <>
-    <NavBar/>
-    <BrowserRouter>
     
+    <BrowserRouter>
+    <NavBar/>
     <Routes> 
       <Route path="/"element={
         <> 
